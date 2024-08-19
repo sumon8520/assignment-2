@@ -21,6 +21,7 @@ ul li a{
     font-size: 1.1rem;
     font-weight: 400;
     text-align: center;
+    color: white;
 }
 ul{
     display: flex;
@@ -39,4 +40,57 @@ ul{
     font-size: 1.1rem;
     font-weight: 400;
     padding: 8px 12px;
+}
+.banner{
+    display: flex;
+    margin-left: 190px;
+}
+.tittle-discrip{
+    font-size: 4.8rem;
+    font-weight: 800;
+    color: white;
+}
+.style{
+    font-style: italic;
+    font-size: 4.6rem;
+    font-weight: 600;
+    color: white;
+}
+.btn-primary-2{
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 8px 12px;
+}
+.btn-2{
+    color: white;
+    border: 1px;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: -100px;
+}
+.header{
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.tittle{
+    color: white;
+}
+.habit-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (max-width:576px) {
+   nav{
+    flex-direction: column;
+   } 
+   .banner{
+    flex-direction: column;
+   }
 }
